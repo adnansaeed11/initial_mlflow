@@ -59,7 +59,7 @@ with mlflow.start_run():
 
     mlflow.sklearn.log_model(dt, "decision tree")
 
-    mlflow.set_tag('author','nitish')
+    mlflow.set_tag('author','Adnan Saeed')
     mlflow.set_tag('model','decision tree')
 
     print('accuracy', accuracy)
