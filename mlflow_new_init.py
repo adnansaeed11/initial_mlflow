@@ -60,7 +60,7 @@ with mlflow.start_run():
 
     mlflow.sklearn.log_model(rf, "random forest")
 
-    mlflow.set_tag('author','rahul')
+    mlflow.set_tag('author','Adnan Saeed')
     mlflow.set_tag('model','random forest')
 
     print('accuracy', accuracy)
